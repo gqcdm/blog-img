@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@layer components{
+    .thumbnail{
+        @apply w-64 p-1 border border-gray-300 h-[21rem]
+    }
+    .thumbnail > h3{
+        @apply mx-3 text-center mt-3
+    }
+    .thumbnail > h3 > a{
+        @apply text-blue-600 hover:text-blue-800 text-2xl
+    }
+    .thumbnail > h4{
+        @apply text-center mx-8 text-gray-400 text-base mb-1
+    }
+    .thumbnail > p{
+        @apply text-center mx-4 text-gray-700 text-sm tracking-tighter
+    }
+}
+@tailwind utilities;
